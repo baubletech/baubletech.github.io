@@ -1,0 +1,31 @@
+baseURL: 'https://baubletech.com/'
+languageCode: 'en-us'
+title: 'Bauble Blog'
+theme: 'cactus'
+disqusShortname: "bauble"
+
+params:
+  description: "A place for the interested."
+  colortheme: "dark"
+  rss: true
+  postsOnHomePage: 7
+  logo: "images/logo.svg"
+  comments:
+    enabled: true
+    engine: "remark42"
+    remark42:
+      host: "https://comments.baubletech.com"
+      siteId: "bauble"
+
+markup:
+  highlight:
+    style: 'native'
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "All Posts"
+      url: "/posts"
+      weight: 2
